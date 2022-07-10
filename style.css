@@ -29,6 +29,19 @@ body {
         margin-top: -.5rem;
 }
 
+.music-container {
+        padding:2.5rem;
+        position:relative;
+        background-color: #740C10;
+        opacity: .8;
+        display: flex;
+}
+
+.music-info{
+    position: absolute;
+    right: 50%;
+}
+
 .shopbut {
     position: absolute;
     right: 46%;
