@@ -110,7 +110,7 @@ a:visited {
     flex-direction: column;
 }
 
-a:hover {
+.socialicons a:hover {
   animation: hvr .5s linear;
   animation-fill-mode: forwards;
 }
@@ -147,4 +147,50 @@ a:hover {
 
 footer {
     margin: 1.5rem;
+}
+
+
+/* info.html css*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.grid-house {
+    display: grid;
+    grid-template-areas: 
+    'top top top'
+    'left right right'
+    'bottom bottom bottom';
+    height: 100vh;
+}
+
+
+.top {
+grid-area: top;
+color:white;
+border:#740C10 2px solid;
+text-align: center;
+
+}
+
+.left {
+grid-area: left;
+color:white;
+border:#740C10 2px solid;
+}
+
+.right{
+    grid-area: right;
+    color:white;
+    border:#740C10 2px solid;
+
+}
+
+.bottom{
+    grid-area: bottom;
+    color:white;
+    border:#740C10 2px solid;
+
 }
