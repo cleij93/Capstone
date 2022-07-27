@@ -177,6 +177,7 @@ a:hover {
  
 button:hover {
     opacity:.7;
+    cursor: pointer;
 }
 
 footer {
@@ -231,7 +232,6 @@ footer {
 .left img {
      width: 75%;
      height: auto;
-     border: #740C10 groove 3px;
      margin: 2rem;
 }
 
